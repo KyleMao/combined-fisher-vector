@@ -1,0 +1,12 @@
+# Ignore the build and lib dirs
+build
+
+# Ignore any executables
+bin/*
+
+# Ignore Mac specific files
+.DS_Store
+
+# Project specific
+example/*fv.gz
+example/*.raw
